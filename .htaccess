@@ -1,4 +1,5 @@
+# Включаем модуль аутентификации
 AuthType Basic
-AuthName "Restricted Area"
-AuthUserFile /.htpasswd
+AuthName "Restricted Access"
+AuthUserFile https://kozheeq.github.io/chatbreak/.htpasswd
 Require valid-user
